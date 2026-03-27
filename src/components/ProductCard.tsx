@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import type { Product } from "@/lib/products";
 
 interface ProductCardProps {
@@ -33,40 +32,24 @@ export default function ProductCard({ product }: ProductCardProps) {
         <div
           style={{
             aspectRatio: "3/4",
-            backgroundColor: product.colors.includes("black") ? "#1a1a1a" : "#F0EDE8",
+            backgroundColor: "#F0EDE8",
             position: "relative",
             overflow: "hidden",
           }}
         >
-          {product.images[0] && product.images[0].startsWith("/images/") ? (
-            <div
-              style={{
-                width: "100%",
-                height: "100%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <p
-                style={{
-                  fontFamily: "var(--font-playfair), Georgia, serif",
-                  fontSize: "14px",
-                  color: product.colors.includes("black")
-                    ? "rgba(255,255,255,0.4)"
-                    : "rgba(0,0,0,0.3)",
-                  textAlign: "center",
-                  padding: "16px",
-                  fontStyle: "italic",
-                }}
-              >
-                Mental Health
-                <br />
-                is Hott
+          {product.images[0] ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={product.images[0]}
+              alt={product.name}
+              style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+            />
+          ) : (
+            <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <p style={{ fontFamily: "var(--font-playfair), Georgia, serif", fontSize: "14px", color: "rgba(0,0,0,0.3)", textAlign: "center", padding: "16px", fontStyle: "italic" }}>
+                Mental Health<br />is Hott
               </p>
             </div>
-          ) : (
-            <Image src={product.images[0]} alt={product.name} fill style={{ objectFit: "cover" }} />
           )}
 
           {/* Founding badge */}

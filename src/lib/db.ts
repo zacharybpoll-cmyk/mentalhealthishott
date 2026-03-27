@@ -112,3 +112,45 @@ export function getTotalOrders(): number {
   `).get() as { total: number };
   return row.total;
 }
+
+export interface FullOrder {
+  id: number;
+  stripe_session_id: string;
+  customer_email: string;
+  instagram_handle: string;
+  total: number;
+  status: string;
+  created_at: string;
+  sessions_funded: number;
+  items: string; // JSON array
+}
+
+export function getAllOrders(): FullOrder[] {
+  const db = getDb();
+  return db.prepare(`
+    SELECT
+      o.id, o.stripe_session_id, o.customer_email, o.instagram_handle,
+      o.total, o.status, o.created_at,
+      COALESCE(SUM(i.therapy_sessions_funded), 0) as sessions_funded,
+      json_group_array(
+        json_object('name', oi.product_name, 'qty', oi.quantity, 'price', oi.price)
+      ) as items
+    FROM orders o
+    LEFT JOIN impact i ON i.order_id = o.id
+    LEFT JOIN order_items oi ON oi.order_id = o.id
+    GROUP BY o.id
+    ORDER BY o.created_at DESC
+    LIMIT 100
+  `).all() as FullOrder[];
+}
+
+export function getImpactBreakdown(): { total_sessions: number; total_orders: number; total_revenue: number } {
+  const db = getDb();
+  const row = db.prepare(`
+    SELECT
+      COALESCE((SELECT SUM(therapy_sessions_funded) FROM impact), 0) as total_sessions,
+      COALESCE((SELECT COUNT(*) FROM orders WHERE status = 'paid'), 0) as total_orders,
+      COALESCE((SELECT SUM(total) FROM orders WHERE status = 'paid'), 0) as total_revenue
+  `).get() as { total_sessions: number; total_orders: number; total_revenue: number };
+  return row;
+}

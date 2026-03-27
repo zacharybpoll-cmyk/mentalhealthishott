@@ -13,8 +13,9 @@ export interface Product {
   category: "hoodie" | "tee" | "jogger" | "set";
   colors: ProductColor[];
   sizes: ProductSize[];
-  images: string[]; // placeholder paths until real photos
-  therapySessions: number; // sessions funded per purchase
+  images: string[];
+  video?: string; // optional product video
+  therapySessions: number;
   stripeProductId?: string;
   stripePriceId?: string;
   details: string[];
@@ -29,14 +30,15 @@ export const PRODUCTS: Product[] = [
     tagline: "Wear the conversation.",
     description:
       "Our flagship hoodie. Premium heavyweight French terry — the kind that holds its shape, wears soft, and gets better with every wash. Built for people who refuse to shrink from who they are. 'Mental Health is Hott' embroidered on the chest because it is.",
-    price: 60,
-    priceRange: "$55–65",
-    cogs: 22,
+    price: 99,
+    priceRange: "$99",
+    cogs: 32,
     tier: 1,
     category: "hoodie",
     colors: ["black"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
-    images: ["/images/products/black-hoodie-front.jpg", "/images/products/black-hoodie-back.jpg"],
+    images: ["/images/products/black-hoodie-flat.png", "/images/products/black-hoodie-golden.png", "/images/products/black-hoodie-female.png", "/images/products/black-hoodie-studio.png"],
+    video: "/videos/hero-cinematic.mp4",
     therapySessions: 1,
     details: [
       "Premium heavyweight French terry, 400 GSM",
@@ -54,14 +56,15 @@ export const PRODUCTS: Product[] = [
     tagline: "Clean. Considered. Loud in all the right ways.",
     description:
       "The same premium French terry hoodie in clean white. A statement piece that turns heads and starts conversations about the thing we all need to talk about more. Founding Collection exclusive.",
-    price: 60,
-    priceRange: "$55–65",
-    cogs: 22,
+    price: 99,
+    priceRange: "$99",
+    cogs: 32,
     tier: 1,
     category: "hoodie",
     colors: ["white"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
-    images: ["/images/products/white-hoodie-front.jpg", "/images/products/white-hoodie-back.jpg"],
+    images: ["/images/products/cream-hoodie-flat.png", "/images/products/white-hoodie-female.png", "/images/products/white-hoodie-golden.png", "/images/products/white-hoodie-close.jpg"],
+    video: "/videos/pullback.mp4",
     therapySessions: 1,
     details: [
       "Premium heavyweight French terry, 400 GSM",
@@ -86,7 +89,7 @@ export const PRODUCTS: Product[] = [
     category: "tee",
     colors: ["black", "white", "cream"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
-    images: ["/images/products/oversized-tee-black.jpg", "/images/products/oversized-tee-white.jpg"],
+    images: ["/images/products/tee-portrait.png", "/images/products/tee-standing.png", "/images/products/tee-seated.png", "/images/products/tee-bw.png"],
     therapySessions: 1,
     details: [
       "100% combed ring-spun cotton, 220 GSM",
@@ -104,14 +107,14 @@ export const PRODUCTS: Product[] = [
     tagline: "For the days you need to move through it.",
     description:
       "Soft, tapered joggers with an elastic waistband and deep pockets. The kind of pants you reach for when you need to feel held together — literally and figuratively. Pairs perfectly with the Classic Hoodie.",
-    price: 55,
-    priceRange: "$50–60",
-    cogs: 18,
+    price: 89,
+    priceRange: "$89",
+    cogs: 28,
     tier: 1,
     category: "jogger",
     colors: ["black", "cream"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
-    images: ["/images/products/joggers-black.jpg", "/images/products/joggers-cream.jpg"],
+    images: ["/images/products/joggers-seated.png", "/images/products/joggers-standing.png", "/images/products/joggers-set.jpg"],
     therapySessions: 1,
     details: [
       "Heavyweight French terry, 380 GSM",
@@ -129,14 +132,15 @@ export const PRODUCTS: Product[] = [
     tagline: "The full statement.",
     description:
       "The Classic Hoodie and Comfort Joggers as a matched set — the highest-impact thing you can wear and the highest-impact purchase you can make. This set funds 3 therapy sessions. Worn by people who are done pretending they have it all together.",
-    price: 200,
-    priceRange: "$180–220",
-    cogs: 55,
+    price: 199,
+    priceRange: "$199",
+    cogs: 65,
     tier: 1,
     category: "set",
     colors: ["black"],
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
-    images: ["/images/products/sweatsuit-set-black.jpg"],
+    images: ["/images/products/sweatsuit-set-full.jpg", "/images/products/sweatsuit-car-v2.jpg", "/images/products/sweatsuit-car-portrait.png", "/images/products/sweatsuit-duo.png"],
+    video: "/videos/fashion-2.mp4",
     therapySessions: 3,
     details: [
       "Classic Hoodie + Comfort Joggers",

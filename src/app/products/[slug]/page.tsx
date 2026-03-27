@@ -21,6 +21,8 @@ export default function ProductPage({ params }: Props) {
   const [selectedSize, setSelectedSize] = useState<ProductSize | null>(null);
   const [selectedColor, setSelectedColor] = useState<ProductColor>(product.colors[0]);
   const [added, setAdded] = useState(false);
+  const [activeImage, setActiveImage] = useState(0);
+  const [showVideo, setShowVideo] = useState(false);
 
   const handleAddToCart = () => {
     if (!selectedSize) return;
@@ -44,46 +46,79 @@ export default function ProductPage({ params }: Props) {
             alignItems: "start",
           }}
         >
-          {/* Product image */}
-          <div
-            style={{
-              aspectRatio: "3/4",
-              backgroundColor: selectedColor === "black" ? "#1a1a1a" : selectedColor === "white" ? "#F8F8F8" : "#F0EDE8",
-              borderRadius: "4px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              position: "sticky",
-              top: "88px",
-            }}
-          >
-            <div style={{ textAlign: "center" }}>
-              <p
-                style={{
-                  fontFamily: "var(--font-playfair), Georgia, serif",
-                  fontSize: "clamp(20px, 3vw, 28px)",
-                  color: selectedColor === "black" ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.3)",
-                  fontStyle: "italic",
-                  lineHeight: 1.4,
-                }}
-              >
-                Mental Health
-                <br />
-                is Hott
-              </p>
-              {product.isFounding && (
-                <p
+          {/* Product image gallery */}
+          <div style={{ position: "sticky", top: "88px" }}>
+            {/* Main image / video */}
+            <div
+              style={{
+                aspectRatio: "3/4",
+                borderRadius: "4px",
+                overflow: "hidden",
+                backgroundColor: "#f0ede8",
+                marginBottom: "12px",
+              }}
+            >
+              {showVideo && product.video ? (
+                <video
+                  src={product.video}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                />
+              ) : (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={product.images[activeImage]}
+                  alt={product.name}
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                />
+              )}
+            </div>
+            {/* Thumbnails + video thumb */}
+            <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+              {product.images.map((img, i) => (
+                <button
+                  key={i}
+                  onClick={() => { setActiveImage(i); setShowVideo(false); }}
                   style={{
-                    marginTop: "24px",
-                    fontSize: "11px",
-                    fontWeight: 600,
-                    letterSpacing: "0.1em",
-                    textTransform: "uppercase",
-                    color: "var(--accent)",
+                    width: "72px",
+                    height: "72px",
+                    borderRadius: "2px",
+                    overflow: "hidden",
+                    border: !showVideo && activeImage === i ? "2px solid #111" : "1px solid var(--border)",
+                    padding: 0,
+                    cursor: "pointer",
+                    backgroundColor: "#f0ede8",
                   }}
                 >
-                  Founding Collection
-                </p>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={img} alt={`${product.name} ${i + 1}`} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                </button>
+              ))}
+              {product.video && (
+                <button
+                  onClick={() => setShowVideo(true)}
+                  style={{
+                    width: "72px",
+                    height: "72px",
+                    borderRadius: "2px",
+                    overflow: "hidden",
+                    border: showVideo ? "2px solid #111" : "1px solid var(--border)",
+                    padding: 0,
+                    cursor: "pointer",
+                    backgroundColor: "#111",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                    gap: "4px",
+                  }}
+                >
+                  <span style={{ fontSize: "18px", color: "white" }}>▶</span>
+                  <span style={{ fontSize: "9px", color: "rgba(255,255,255,0.7)", letterSpacing: "0.06em", textTransform: "uppercase" }}>Film</span>
+                </button>
               )}
             </div>
           </div>
@@ -135,23 +170,21 @@ export default function ProductPage({ params }: Props) {
               style={{
                 backgroundColor: "var(--surface)",
                 border: "1px solid var(--border)",
-                borderRadius: "4px",
-                padding: "16px",
+                borderLeft: "3px solid var(--accent)",
+                borderRadius: "0 4px 4px 0",
+                padding: "14px 16px",
                 marginBottom: "24px",
               }}
             >
               <p
                 style={{
-                  fontSize: "14px",
+                  fontSize: "13px",
                   color: "var(--text-secondary)",
                   lineHeight: 1.5,
                 }}
               >
-                This purchase funds{" "}
-                <strong style={{ color: "var(--text-primary)" }}>
-                  {product.therapySessions} therapy session{product.therapySessions > 1 ? "s" : ""}
-                </strong>{" "}
-                for someone who can&apos;t afford care.
+                <strong style={{ color: "var(--text-primary)" }}>Every purchase funds a therapy session</strong>{" "}
+                for someone who can&apos;t afford care. No gimmicks. Real sessions, real people.
               </p>
             </div>
 

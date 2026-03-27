@@ -31,87 +31,72 @@ export default async function HomePage() {
         {/* Hero */}
         <section
           style={{
-            backgroundColor: "var(--black)",
+            position: "relative",
+            backgroundColor: "#1a1008",
             color: "var(--white)",
-            padding: "120px 24px",
-            textAlign: "center",
+            height: "100vh",
+            minHeight: "600px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            overflow: "hidden",
           }}
         >
-          <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-            <p
-              style={{
-                fontSize: "11px",
-                fontWeight: 600,
-                letterSpacing: "0.16em",
-                textTransform: "uppercase",
-                color: "var(--accent)",
-                marginBottom: "24px",
-              }}
-            >
-              Founding Collection — Limited to 100 Units
-            </p>
+          {/* Background image */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/hero.jpg"
+            alt="Mental Health is Hott"
+            style={{
+              position: "absolute",
+              inset: 0,
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              objectPosition: "center center",
+            }}
+          />
+          {/* Subtle dark overlay */}
+          <div
+            style={{
+              position: "absolute",
+              inset: 0,
+              background: "rgba(0,0,0,0.28)",
+            }}
+          />
+          {/* Content */}
+          <div style={{ position: "relative", zIndex: 1, textAlign: "center", padding: "0 24px" }}>
             <h1
               style={{
                 fontFamily: "var(--font-playfair), Georgia, serif",
-                fontSize: "clamp(48px, 8vw, 80px)",
-                fontWeight: 700,
-                lineHeight: 1.05,
-                marginBottom: "28px",
+                fontSize: "clamp(64px, 12vw, 160px)",
+                fontWeight: 900,
+                lineHeight: 0.9,
                 letterSpacing: "-0.02em",
+                textTransform: "uppercase",
+                color: "#FFFFFF",
+                marginBottom: "48px",
+                textShadow: "0 2px 24px rgba(0,0,0,0.3)",
               }}
             >
-              Mental Health
-              <br />
-              is Hott.
+              MENTAL<br />HEALTH<br />IS HOTT
             </h1>
-            <p
+            <Link
+              href="/products"
               style={{
-                fontSize: "18px",
-                color: "rgba(255,255,255,0.7)",
-                lineHeight: 1.6,
-                maxWidth: "480px",
-                margin: "0 auto 48px",
+                display: "inline-block",
+                border: "2px solid rgba(255,255,255,0.9)",
+                color: "#FFFFFF",
+                padding: "16px 48px",
+                fontSize: "12px",
+                fontWeight: 600,
+                letterSpacing: "0.2em",
+                textTransform: "uppercase",
+                textDecoration: "none",
               }}
             >
-              Premium apparel for people who refuse to stay quiet. Every purchase funds a real
-              therapy session for someone who can&apos;t afford one.
-            </p>
-            <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
-              <Link
-                href="/products"
-                style={{
-                  backgroundColor: "var(--white)",
-                  color: "var(--black)",
-                  padding: "16px 40px",
-                  fontSize: "13px",
-                  fontWeight: 600,
-                  letterSpacing: "0.08em",
-                  textTransform: "uppercase",
-                  textDecoration: "none",
-                  borderRadius: "2px",
-                  display: "inline-block",
-                }}
-              >
-                Shop the Collection
-              </Link>
-              <Link
-                href="/impact"
-                style={{
-                  border: "1px solid rgba(255,255,255,0.3)",
-                  color: "rgba(255,255,255,0.8)",
-                  padding: "16px 40px",
-                  fontSize: "13px",
-                  fontWeight: 500,
-                  letterSpacing: "0.08em",
-                  textTransform: "uppercase",
-                  textDecoration: "none",
-                  borderRadius: "2px",
-                  display: "inline-block",
-                }}
-              >
-                See the Impact
-              </Link>
-            </div>
+              SHOP THE COLLECTION
+            </Link>
           </div>
         </section>
 

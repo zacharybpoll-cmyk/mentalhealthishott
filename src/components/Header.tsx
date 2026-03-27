@@ -27,19 +27,30 @@ export default function Header() {
           justifyContent: "space-between",
         }}
       >
-        {/* Wordmark */}
+        {/* Logo + Wordmark */}
         <Link
           href="/"
           style={{
-            fontFamily: "var(--font-playfair), Georgia, serif",
-            fontSize: "18px",
-            fontWeight: 600,
-            color: "var(--text-primary)",
+            display: "flex",
+            alignItems: "center",
+            gap: "12px",
             textDecoration: "none",
-            letterSpacing: "0.02em",
           }}
         >
-          Mental Health is Hott
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/logo/mhih-logo.png" alt="MHIH" style={{ width: "36px", height: "36px", objectFit: "contain" }} />
+          <span
+            style={{
+              fontFamily: "var(--font-playfair), Georgia, serif",
+              fontSize: "14px",
+              fontWeight: 700,
+              color: "var(--text-primary)",
+              letterSpacing: "0.12em",
+              textTransform: "uppercase",
+            }}
+          >
+            Mental Health is Hott
+          </span>
         </Link>
 
         {/* Nav */}
