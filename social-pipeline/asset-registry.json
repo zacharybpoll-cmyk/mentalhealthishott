@@ -1,0 +1,955 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-03-31",
+  "base_paths": {
+    "root": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/",
+    "cleaned": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/"
+  },
+  "assets": [
+    {
+      "id": "couple-white-and-black-hoodie-image-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/couple-white-and-black-hoodie-image-1.png",
+      "type": "image",
+      "product": "mixed",
+      "model": "couple",
+      "suitable_pillars": [
+        "status_signaling",
+        "community"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/couple-white-and-black-hoodie-image-1.png"
+    },
+    {
+      "id": "couple-white-and-black-hoodie-image-2",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/couple-white-and-black-hoodie-image-2.jpg",
+      "type": "image",
+      "product": "mixed",
+      "model": "couple",
+      "suitable_pillars": [
+        "status_signaling",
+        "community"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/couple-white-and-black-hoodie-image-2.jpg"
+    },
+    {
+      "id": "crop-top-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/crop-top-1.png",
+      "type": "image",
+      "product": "crop-top",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/crop-top-1.png"
+    },
+    {
+      "id": "duo-male-white-and-black-hoodie-image-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/duo-male-white-and-black-hoodie-image-1.png",
+      "type": "image",
+      "product": "mixed",
+      "model": "duo-male",
+      "suitable_pillars": [
+        "status_signaling",
+        "community"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/duo-male-white-and-black-hoodie-image-1.png"
+    },
+    {
+      "id": "female-black-hoodie-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-black-hoodie-1.png",
+      "type": "image",
+      "product": "black-hoodie",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-black-hoodie-1.png"
+    },
+    {
+      "id": "female-black-hoodie-image-2",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-black-hoodie-image-2.png",
+      "type": "image",
+      "product": "black-hoodie",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-black-hoodie-image-2.png"
+    },
+    {
+      "id": "female-black-hoodie-image-3",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-black-hoodie-image-3.png",
+      "type": "image",
+      "product": "black-hoodie",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-black-hoodie-image-3.png"
+    },
+    {
+      "id": "female-crop-top-image-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-crop-top-image-1.png",
+      "type": "image",
+      "product": "crop-top",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-crop-top-image-1.png"
+    },
+    {
+      "id": "female-crop-top-image-2",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-crop-top-image-2.png",
+      "type": "image",
+      "product": "crop-top",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-crop-top-image-2.png"
+    },
+    {
+      "id": "female-crop-top-image-3",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-crop-top-image-3.png",
+      "type": "image",
+      "product": "crop-top",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-crop-top-image-3.png"
+    },
+    {
+      "id": "female-white-hoodie-image-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-white-hoodie-image-1.png",
+      "type": "image",
+      "product": "white-hoodie",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-white-hoodie-image-1.png"
+    },
+    {
+      "id": "female-white-hoodie-image-2",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-white-hoodie-image-2.png",
+      "type": "image",
+      "product": "white-hoodie",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-white-hoodie-image-2.png"
+    },
+    {
+      "id": "female-white-hoodie-image-3",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-white-hoodie-image-3.png",
+      "type": "image",
+      "product": "white-hoodie",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-white-hoodie-image-3.png"
+    },
+    {
+      "id": "female-white-hoodie-image-4",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-white-hoodie-image-4.png",
+      "type": "image",
+      "product": "white-hoodie",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-white-hoodie-image-4.png"
+    },
+    {
+      "id": "female-white-hoodie-image-5",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-white-hoodie-image-5.png",
+      "type": "image",
+      "product": "white-hoodie",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-white-hoodie-image-5.png"
+    },
+    {
+      "id": "female-white-hoodie-image-6",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-white-hoodie-image-6.png",
+      "type": "image",
+      "product": "white-hoodie",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-white-hoodie-image-6.png"
+    },
+    {
+      "id": "female-white-hoodie-image-7",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-white-hoodie-image-7.jpg",
+      "type": "image",
+      "product": "white-hoodie",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-white-hoodie-image-7.jpg"
+    },
+    {
+      "id": "gemini-crop-top-female-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/gemini-crop-top-female-1.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/gemini-crop-top-female-1.png"
+    },
+    {
+      "id": "gemini-bw-crop-top-female-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/gemini-bw-crop-top-female-1.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/gemini-bw-crop-top-female-1.png"
+    },
+    {
+      "id": "male-black-hoodie-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/male-black-hoodie-1.png",
+      "type": "image",
+      "product": "black-hoodie",
+      "model": "male",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/male-black-hoodie-1.png"
+    },
+    {
+      "id": "male-white-hoodie-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/male-white-hoodie-1.png",
+      "type": "image",
+      "product": "white-hoodie",
+      "model": "male",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/male-white-hoodie-1.png"
+    },
+    {
+      "id": "male-white-hoodie-image-2",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/male-white-hoodie-image-2.png",
+      "type": "image",
+      "product": "white-hoodie",
+      "model": "male",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/male-white-hoodie-image-2.png"
+    },
+    {
+      "id": "male-white-hoodie-image-3",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/male-white-hoodie-image-3.png",
+      "type": "image",
+      "product": "white-hoodie",
+      "model": "male",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/male-white-hoodie-image-3.png"
+    },
+    {
+      "id": "male-white-hoodie-image-4",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/male-white-hoodie-image-4.png",
+      "type": "image",
+      "product": "white-hoodie",
+      "model": "male",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/male-white-hoodie-image-4.png"
+    },
+    {
+      "id": "male-white-hoodie-image-5",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/male-white-hoodie-image-5.png",
+      "type": "image",
+      "product": "white-hoodie",
+      "model": "male",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/male-white-hoodie-image-5.png"
+    },
+    {
+      "id": "couple-white-and-black-hoodie-video-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/couple-white-and-black-hoodie-video-1.mp4",
+      "type": "video",
+      "product": "mixed",
+      "model": "couple",
+      "suitable_pillars": [
+        "product_showcase",
+        "behind_the_scenes"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/couple-white-and-black-hoodie-video-1.mp4"
+    },
+    {
+      "id": "couple-white-and-black-hoodie-video-2",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/couple-white-and-black-hoodie-video-2.mp4",
+      "type": "video",
+      "product": "mixed",
+      "model": "couple",
+      "suitable_pillars": [
+        "product_showcase",
+        "behind_the_scenes"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/couple-white-and-black-hoodie-video-2.mp4"
+    },
+    {
+      "id": "f5bde981-video",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/f5bde981-85e4-41f1-b009-87db0da6616f.mp4",
+      "type": "video",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "behind_the_scenes"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/f5bde981-85e4-41f1-b009-87db0da6616f.mp4"
+    },
+    {
+      "id": "female-black-hoodie-video-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-black-hoodie-video-1.mp4",
+      "type": "video",
+      "product": "black-hoodie",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "behind_the_scenes"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-black-hoodie-video-1.mp4"
+    },
+    {
+      "id": "female-crop-top-video-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-crop-top-video-1.mp4",
+      "type": "video",
+      "product": "crop-top",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "behind_the_scenes"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-crop-top-video-1.mp4"
+    },
+    {
+      "id": "female-crop-top-video-2",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-crop-top-video-2.mp4",
+      "type": "video",
+      "product": "crop-top",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "behind_the_scenes"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-crop-top-video-2.mp4"
+    },
+    {
+      "id": "female-white-hoodie-video-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/female-white-hoodie-video-1.mp4",
+      "type": "video",
+      "product": "white-hoodie",
+      "model": "female",
+      "suitable_pillars": [
+        "product_showcase",
+        "behind_the_scenes"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/female-white-hoodie-video-1.mp4"
+    },
+    {
+      "id": "male-white-hoodie-video-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/male-white-hoodie-video-1.mp4",
+      "type": "video",
+      "product": "white-hoodie",
+      "model": "male",
+      "suitable_pillars": [
+        "product_showcase",
+        "behind_the_scenes"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/male-white-hoodie-video-1.mp4"
+    },
+    {
+      "id": "romantic-desert-cropped",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/romantic-desert-cropped.mp4",
+      "type": "video",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "status_signaling",
+        "community"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/romantic-desert-cropped.mp4"
+    },
+    {
+      "id": "video-gen-cropped",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/video-gen-cropped.mp4",
+      "type": "video",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "status_signaling",
+        "community"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/video-gen-cropped.mp4"
+    },
+    {
+      "id": "cleaned-03f3db6e",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/03f3db6e-05b1-4926-82fd-86beb1b63444.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/03f3db6e-05b1-4926-82fd-86beb1b63444.png"
+    },
+    {
+      "id": "cleaned-1cb38f87",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/1cb38f87-8575-4e56-963b-41ea6e011c5f.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/1cb38f87-8575-4e56-963b-41ea6e011c5f.png"
+    },
+    {
+      "id": "cleaned-1db0c29e",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/1db0c29e-63d9-4bd4-bb78-f902aafc8140.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/1db0c29e-63d9-4bd4-bb78-f902aafc8140.png"
+    },
+    {
+      "id": "cleaned-32fcff5f",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/32fcff5f-2881-4047-95f0-d5a9a96adbbe.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/32fcff5f-2881-4047-95f0-d5a9a96adbbe.png"
+    },
+    {
+      "id": "cleaned-5562eaad",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/5562eaad-720b-4fd0-b1a0-1fd457f69fe2.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/5562eaad-720b-4fd0-b1a0-1fd457f69fe2.png"
+    },
+    {
+      "id": "cleaned-5cd29e3c",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/5cd29e3c-8595-4d8d-abc3-cf625b6fc740.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/5cd29e3c-8595-4d8d-abc3-cf625b6fc740.png"
+    },
+    {
+      "id": "cleaned-5daa4ab7",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/5daa4ab7-84e9-41d0-b4b7-4612bf5adb9f.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/5daa4ab7-84e9-41d0-b4b7-4612bf5adb9f.png"
+    },
+    {
+      "id": "cleaned-6f49a4db",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/6f49a4db-b699-4f63-9de3-89b8438c0eda.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/6f49a4db-b699-4f63-9de3-89b8438c0eda.png"
+    },
+    {
+      "id": "cleaned-7053dc5a",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/7053dc5a-e4e9-4263-80e5-b377da590e7b.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/7053dc5a-e4e9-4263-80e5-b377da590e7b.png"
+    },
+    {
+      "id": "cleaned-70a68812",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/70a68812-b23e-4235-ad7a-2c33198ccad6.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/70a68812-b23e-4235-ad7a-2c33198ccad6.png"
+    },
+    {
+      "id": "cleaned-8094b760",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/8094b760-a007-4707-925c-d04eabaf1e77.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/8094b760-a007-4707-925c-d04eabaf1e77.png"
+    },
+    {
+      "id": "cleaned-81f35428",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/81f35428-222b-4350-820a-2e065622a13c.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/81f35428-222b-4350-820a-2e065622a13c.png"
+    },
+    {
+      "id": "cleaned-848a562c",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/848a562c-5006-4f64-b426-a3b8e4a00383.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/848a562c-5006-4f64-b426-a3b8e4a00383.png"
+    },
+    {
+      "id": "cleaned-8ed11951",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/8ed11951-7b6d-4103-9d43-43b727713d29.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/8ed11951-7b6d-4103-9d43-43b727713d29.png"
+    },
+    {
+      "id": "cleaned-a9b85dd6",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/a9b85dd6-0159-4ed6-87ca-7ffc5912e2c0.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/a9b85dd6-0159-4ed6-87ca-7ffc5912e2c0.png"
+    },
+    {
+      "id": "cleaned-bf4fbaf2",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/bf4fbaf2-d6fd-4669-b7e4-4706eb63916d.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/bf4fbaf2-d6fd-4669-b7e4-4706eb63916d.png"
+    },
+    {
+      "id": "cleaned-cd6636a5",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/cd6636a5-7dfe-4bec-8fe7-105753d0666a.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/cd6636a5-7dfe-4bec-8fe7-105753d0666a.png"
+    },
+    {
+      "id": "cleaned-e2772d51",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/e2772d51-bb2f-4b8b-98cb-beb1c0ade225.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/e2772d51-bb2f-4b8b-98cb-beb1c0ade225.png"
+    },
+    {
+      "id": "cleaned-f92913a5",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/f92913a5-e4ee-4e9a-96c2-c9972fe2b276.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/f92913a5-e4ee-4e9a-96c2-c9972fe2b276.png"
+    },
+    {
+      "id": "gemini-crop-top-seated-female-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/gemini-crop-top-seated-female-1.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/gemini-crop-top-seated-female-1.png"
+    },
+    {
+      "id": "gemini-cream-hoodie-male-1",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/gemini-cream-hoodie-male-1.png",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/gemini-cream-hoodie-male-1.png"
+    },
+    {
+      "id": "cleaned-unnamed-2",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/unnamed-2.jpg",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/unnamed-2.jpg"
+    },
+    {
+      "id": "cleaned-unnamed",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/unnamed.jpg",
+      "type": "image",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "status_signaling"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/unnamed.jpg"
+    },
+    {
+      "id": "cleaned-90eff976-video",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/90eff976-6269-4f69-8544-5afb9d93db9e.mp4",
+      "type": "video",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "behind_the_scenes"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/90eff976-6269-4f69-8544-5afb9d93db9e.mp4"
+    },
+    {
+      "id": "cleaned-b16058af-video",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/b16058af-5e35-42b0-8cf8-87750b8d8d44.mp4",
+      "type": "video",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "product_showcase",
+        "behind_the_scenes"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/b16058af-5e35-42b0-8cf8-87750b8d8d44.mp4"
+    },
+    {
+      "id": "cinematic-fashion-cropped",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/cinematic-fashion-cropped.mp4",
+      "type": "video",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "status_signaling",
+        "community"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/cinematic-fashion-cropped.mp4"
+    },
+    {
+      "id": "photorealistic-fashion-cropped",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/photorealistic-fashion-cropped.mp4",
+      "type": "video",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "status_signaling",
+        "community"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/photorealistic-fashion-cropped.mp4"
+    },
+    {
+      "id": "subtle-fashion-cropped",
+      "path": "/Users/zacharypoll/Desktop/Documents/Claude Code/MHIH/Photos of people wearing them/cleaned/subtle-fashion-cropped.mp4",
+      "type": "video",
+      "product": "unknown",
+      "model": "unknown",
+      "suitable_pillars": [
+        "status_signaling",
+        "community"
+      ],
+      "needs_watermark_removal": false,
+      "last_used": null,
+      "use_count": 0,
+      "public_url": "https://mentalhealthishott.com/social/assets/subtle-fashion-cropped.mp4"
+    }
+  ]
+}

@@ -46,3 +46,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Social media assets (deployed via vercel, not committed)
+public/social/assets/

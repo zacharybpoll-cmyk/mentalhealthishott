@@ -1,0 +1,54 @@
+{
+  "brand": {
+    "name": "Mental Health Is Hott",
+    "handles": {
+      "ig": "@mentalhealthishott",
+      "tiktok": "@mentalhealthishott",
+      "twitter": "@mhihapparel"
+    },
+    "bio": "Apparel that directly funds someone's therapy who can't afford it",
+    "voice": "High-arousal, empowering, never pitying, status-forward. Never use pity language. Frame mental health as aspirational and status-worthy.",
+    "website": "https://mentalhealthishott.com"
+  },
+  "pillars": {
+    "status_signaling": {
+      "weight": 0.30,
+      "description": "Customer spotlights, impact stats, reshare content",
+      "hashtags": ["#MentalHealthIsHott", "#TherapyFunded", "#WearYourImpact", "#StatusWithPurpose"]
+    },
+    "mental_health_education": {
+      "weight": 0.25,
+      "description": "Therapy normalization, wellness tips, destigmatization",
+      "hashtags": ["#TherapyNormalized", "#MentalHealthMatters", "#EndTheStigma", "#TherapyIsHott"]
+    },
+    "product_showcase": {
+      "weight": 0.20,
+      "description": "Editorial shots, lifestyle imagery, drop previews",
+      "hashtags": ["#MHIHApparel", "#StreetWithPurpose", "#NewDrop", "#WearTheMission"]
+    },
+    "behind_the_scenes": {
+      "weight": 0.15,
+      "description": "Solo founder journey, AI-native operation, building in public",
+      "hashtags": ["#FounderLife", "#BuildingInPublic", "#SoloFounder", "#StartupLife"]
+    },
+    "community": {
+      "weight": 0.10,
+      "description": "UGC, movement moments, community highlights",
+      "hashtags": ["#MHIHCommunity", "#WearTheMovement", "#MentalHealthMovement"]
+    }
+  },
+  "cta_templates": [
+    "Link in bio to shop + fund therapy.",
+    "Every purchase = a therapy session funded.",
+    "Shop the collection. Fund the mission.",
+    "Wear your impact. Link in bio.",
+    "Style with purpose. Shop now."
+  ],
+  "schedule": {
+    "days": ["monday", "tuesday", "wednesday", "thursday"],
+    "time": "08:30",
+    "timezone": "America/Los_Angeles",
+    "drafts_per_platform": 2,
+    "platforms": ["instagram", "tiktok", "twitter"]
+  }
+}
